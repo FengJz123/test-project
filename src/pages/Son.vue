@@ -13,6 +13,7 @@ const props = defineProps<{
 }>()
 const emit = defineEmits<{
   countJia: [val: number]
+  // (e: 'countJia', val: number): void
 }>()
 
 const jiaCount = () => {
