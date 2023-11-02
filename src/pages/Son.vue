@@ -18,6 +18,8 @@ const emit = defineEmits<{
 
 const jiaCount = () => {
   emit('countJia', props.eoyItem.id)
+
+  
 }
 
 </script>
